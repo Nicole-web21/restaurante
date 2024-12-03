@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="icon" href="imagens/favicon.io.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="reservas.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <img src="imagens/lo.jpg" alt="INNOVARE" height="50px" width="150px">
+
+        <nav>
+            <ul>
+                <li><a href="rest.html">Início</a></li>
+                <li><a href="sobre.html">Quem Somos</a></li>
+                <li><a href="https://wa.me/5531995929201?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Restaurante%20Innovare">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Reservas -->
+    <section class="reservations">
+        <h1>FAÇA SUA RESERVA</h1>
+        <p>Garanta sua mesa no Innovare e viva uma experiência gastronômica inesquecível. Preencha o formulário abaixo:</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Seu Nome Completo" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <input type="tel" name="phone" placeholder="Seu Telefone" required>
+            <label for="date">Data da Reserva:</label>
+            <input type="date" name="date" id="date" required>
+            <label for="time">Horário:</label>
+            <input type="time" name="time" id="time" required>
+            <label for="guests">Número de Pessoas:</label>
+            <input type="number" name="guests" id="guests" min="1" max="20" required>
+            <button type="submit" class="btn">Reservar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Telefone para reservas: (31) 9592-9201</p>
+        <p>&copy; 2024 Restaurante Innovare. Todos os direitos reservados.</p>
+    </footer>
+
+ <script src="java.js"></script>
+</body>
+</html>

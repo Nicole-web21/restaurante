@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color:  #000;
+}
+
+
+#home{
+    background-color:#0f1336;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #3c0d0d;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #3498db; /* Azul claro */
+}
+
+section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+section h1, section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #eaeaea; /* Branco suave */
+}
+
+section p {
+    font-size: 1.2em;
+    color: #dcdcdc; /* Branco mais escuro */
+    margin-bottom: 30px;
+}
+
+.about img, .reservations img {
+    width: 550px;
+    height: 500px;
+    border: 5px;
+    margin-top: 30px;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.values ul li {
+    background-color: #2c2c2c; /* Preto mais suave */
+    color: #eaeaea;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.values ul li:hover {
+    transform: scale(1.05);
+    background-color: #3c0d0d; /* Destaque vinho */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color:#2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+form input, form select, form button, form label {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1em;
+    border: 2px solid #181717;
+    border-radius: 5px;
+    background-color: #fff;
+    color:#1b1b1b;
+}
+
+form input::placeholder, form select, form button {
+    color: #140303;
+}
+
+form button {
+    background-color: #3c0d0d; /* Vermelho vinho */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #501414; /* Destaque vinho escuro */
+}
+
+#beneficios{
+    background-color: #0f1336;
+    
+}
+
+
+
+
+footer {
+    background-color: #000;
+    color: #dcdcdc; /* Branco escuro */
+    text-align: center;
+    padding: 20px 50px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Botão Geral */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3c0d0d; /* Vermelho vinho */
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #501414; /* Vinho escuro */
+    transform: scale(1.05);
+}
+
+.menu-btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}

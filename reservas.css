@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color:#fff;
+    background-color: #080d35;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #3c0d0d;;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #3498db; /* Azul claro */
+}
+
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about img, .reservations img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.values ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select, form button, form label {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+}
+
+form .btn {
+    background: #3c0d0d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form .btn:hover {
+    background:  #3498db;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
